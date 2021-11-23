@@ -70,6 +70,19 @@
     "logger-lib": {
       "tags": ["domain:shared"]
     },
+    "luggage": {
+      "tags": ["domain:luggage", "type:app"]
+    },
+    "luggage-domain": {
+      "tags": ["domain:luggage", "type:domain-logic"]
+    },
+    "luggage-e2e": {
+      "tags": [],
+      "implicitDependencies": ["luggage"]
+    },
+    "luggage-feature-checkin": {
+      "tags": ["domain:luggage", "type:feature"]
+    },
     "passenger": {
       "tags": ["domain:passenger", "type:app"]
     },
