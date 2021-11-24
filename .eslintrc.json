@@ -78,7 +78,7 @@
               },
               {
                 "sourceTag": "domain:luggage",
-                "onlyDependOnLibsWithTags": ["domain:luggage", "domain:shared"]
+                "onlyDependOnLibsWithTags": ["domain:luggage", "domain:passenger-api", "domain:shared"]
               }
             ]
           }
