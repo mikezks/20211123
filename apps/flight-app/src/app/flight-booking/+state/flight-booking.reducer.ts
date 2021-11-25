@@ -20,7 +20,7 @@ export const initialState: State = {
 export const reducer = createReducer(
   initialState,
 
-  on(FlightBookingActions.flightsLoaded, (state, action) => {
+  on(FlightBookingActions.flightsLoadedSuccess, (state, action) => {
     const flights = action.flights;
     return { ...state, flights };
   }),
